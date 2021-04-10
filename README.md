@@ -20,4 +20,4 @@ Credits to [SebaLG](https://github.com/SebaLG/) for making the `amazon-bot.py` f
 
 Credits to [swar](https://github.com/swar/) for making the `NBA_API` package that I used for data collection.
 
-Credits to [HoopsHype(https://hoopshype.com/salaries/players/) for providing salary data.
+Credits to [HoopsHype](https://hoopshype.com/salaries/players/) for providing salary data.
