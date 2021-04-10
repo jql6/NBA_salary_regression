@@ -51,7 +51,7 @@
 
 
 <figure>
-  <img src="images/nba_court.jpg"
+  <img src="https://raw.githubusercontent.com/jql6/NBA_salary_regression/main/images/nba_court.jpg"
     width="800"
     style="display:block;float:none;margin-left:auto;margin-right:auto;width:60%"/>
   <figcaption><a href="https://unsplash.com/photos/UegcSdRtmlg">Photo</a> by <a href="https://unsplash.com/@neonbrand">NeONBRAND</a> on <a href="https://unsplash.com/">Unsplash</a></figcaption>
@@ -81,7 +81,7 @@ When I was exploring the data, I was able to make the relationship between salar
 I remember from my [machine learning class](https://www.sfu.ca/outlines.html?2020/fall/stat/452/d100) that a lot of the modelling we did involved doing cross-validation to prevent overfitting and comparing models by using their expected root mean squared error in R. When covering new models, the professor would tell us to throw the new model into the cross validation arena to duke it out with the other models. I decided to replicate this in Python.  
 
 <a href="https://gfycat.com/faroffnegativeirrawaddydolphin-beybladegeeks-animation-episodes-cartoon">
-  <img src="images/beyblade_battle.gif"
+  <img src="https://raw.githubusercontent.com/jql6/NBA_salary_regression/main/images/beyblade_battle.gif"
        alt="beyblades-duking-it-out"
        width=600
        style="display:block;float:none;margin-left:auto;margin-right:auto;width:40%"/>
