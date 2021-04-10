@@ -12,7 +12,7 @@ A Python script that automatically scrapes Hashtag Basketball's League Scouting 
 ---
 
 ## Usage
-[Link to data analysis](https://colab.research.google.com/drive/1pCPfY6VaR6cS-8a1E8UiChtZLPn2pq9H#scrollTo=ZTOTmSQ8UOWt)
+[Link to data analysis notebook](https://colab.research.google.com/drive/1pCPfY6VaR6cS-8a1E8UiChtZLPn2pq9H#scrollTo=ZTOTmSQ8UOWt)
 
 [Link to project page](https://jql6.github.io/NBA_salary_regression/)
 
