@@ -14,6 +14,7 @@ A Python script that automatically scrapes Hashtag Basketball's League Scouting 
 ## Usage
 [Link to data analysis](https://colab.research.google.com/drive/1pCPfY6VaR6cS-8a1E8UiChtZLPn2pq9H#scrollTo=ZTOTmSQ8UOWt)
 
+[Link to project page](https://jql6.github.io/NBA_salary_regression/)
 
 # Credits
 Credits to [SebaLG](https://github.com/SebaLG/) for making the `amazon-bot.py` file which I modified to scrape HoopsHype data. You can find it here: https://github.com/SebaLG/amazon-python-bot
