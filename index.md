@@ -78,14 +78,14 @@ Thus, I wrote an algorithm to try to match the names between the two lists. I wa
 When I was exploring the data, I was able to make the relationship between salary and minutes per game look more linear on the scatterplot. I did this by applying a natural log transformation on salary. Unfortunately, the log transformation on salary made the other variables less linear with salary.  
 
 <a href="https://colab.research.google.com/drive/1pCPfY6VaR6cS-8a1E8UiChtZLPn2pq9H#scrollTo=zTjVX0war6f7">
-  <img src="https://raw.githubusercontent.com/jql6/NBA_salary_regression/main/images/plot1"
+  <img src="https://raw.githubusercontent.com/jql6/NBA_salary_regression/main/images/plot1.png"
        alt="non-linear plot"
        width=600
        style="display:block;float:none;margin-left:auto;margin-right:auto;width:40%"/>
 </a>
 
 <a href="https://colab.research.google.com/drive/1pCPfY6VaR6cS-8a1E8UiChtZLPn2pq9H#scrollTo=zTjVX0war6f7">
-  <img src="https://raw.githubusercontent.com/jql6/NBA_salary_regression/main/images/plot2"
+  <img src="https://raw.githubusercontent.com/jql6/NBA_salary_regression/main/images/plot2.png"
        alt="non-linear plot"
        width=600
        style="display:block;float:none;margin-left:auto;margin-right:auto;width:40%"/>
