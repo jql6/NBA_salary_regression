@@ -77,19 +77,22 @@ Thus, I wrote an algorithm to try to match the names between the two lists. I wa
 
 When I was exploring the data, I was able to make the relationship between salary and minutes per game look more linear on the scatterplot. I did this by applying a natural log transformation on salary. Unfortunately, the log transformation on salary made the other variables less linear with salary.  
 
+<div style="display:grid;grid-template-columns:1fr 1fr;">
 <a href="https://colab.research.google.com/drive/1pCPfY6VaR6cS-8a1E8UiChtZLPn2pq9H#scrollTo=zTjVX0war6f7">
   <img src="https://raw.githubusercontent.com/jql6/NBA_salary_regression/main/images/plot1.png"
        alt="non-linear plot"
        width=600
-       style="display:block;float:none;margin-left:auto;margin-right:auto;width:40%"/>
+       style="display:block;float:none;margin-left:auto;margin-right:auto;width:100%"/>
 </a>
 
 <a href="https://colab.research.google.com/drive/1pCPfY6VaR6cS-8a1E8UiChtZLPn2pq9H#scrollTo=zTjVX0war6f7">
   <img src="https://raw.githubusercontent.com/jql6/NBA_salary_regression/main/images/plot2.png"
        alt="non-linear plot"
        width=600
-       style="display:block;float:none;margin-left:auto;margin-right:auto;width:40%"/>
+       style="display:block;float:none;margin-left:auto;margin-right:auto;width:100%"/>
 </a>
+</div>
+Log transforming the 2020/21 salaries.
 
 # Modelling
 I remember from my [machine learning class](https://www.sfu.ca/outlines.html?2020/fall/stat/452/d100) that a lot of the modelling we did involved doing cross-validation to prevent overfitting and comparing models by using their expected root mean squared error in R. When covering new models, the professor would tell us to throw the new model into the cross validation arena to duke it out with the other models. I decided to replicate this in Python.  
