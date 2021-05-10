@@ -73,7 +73,7 @@ I used [Selenium](https://selenium-python.readthedocs.io/) and [NBA_API](https:/
 
 I thought it would be easy to join the data until I perused the salary data and saw that some of the players, such as P.J. Washington, didn't have periods in their names. I had faced this problem earlier when joining data between [Yahoo API](https://developer.yahoo.com/fantasysports/guide/) and NBA API in which certain players' names wouldn't match up with the other names.  
 
-Thus, I wrote an algorithm to try to match the names between the two lists. I wanted to write a relatively simple algorithm so there some false positive such as the match between Justin and Jerome Robinson. Luckily, the list was small enough to manually correct.
+Thus, I wrote an algorithm to try to match the names between the two lists. I wanted to write a relatively simple algorithm so there are some false positives such as the match between Justin and Jerome Robinson. Luckily, the list was small enough to manually correct.
 
 When I was exploring the data, I was able to make the relationship between salary and minutes per game look more linear on the scatterplot. I did this by applying a natural log transformation on salary. Unfortunately, the log transformation on salary made the other variables less linear with salary. 
 
