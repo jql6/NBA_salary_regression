@@ -75,7 +75,21 @@ I thought it would be easy to join the data until I perused the salary data and 
 
 Thus, I wrote an algorithm to try to match the names between the two lists. I wanted to write a relatively simple algorithm so there are some false positives such as the match between Justin and Jerome Robinson. Luckily, the list was small enough to manually correct.
 
-When I was exploring the data, I was able to make the relationship between salary and minutes per game look more linear on the scatterplot. I did this by applying a natural log transformation on salary. Unfortunately, the log transformation on salary made the other variables less linear with salary. 
+When I was exploring the data, I was able to make the relationship between salary and minutes per game look more linear on the scatterplot. I did this by applying a natural log transformation on salary. Unfortunately, the log transformation on salary made the other variables less linear with salary.  
+
+<a href="https://colab.research.google.com/drive/1pCPfY6VaR6cS-8a1E8UiChtZLPn2pq9H#scrollTo=zTjVX0war6f7">
+  <img src="https://raw.githubusercontent.com/jql6/NBA_salary_regression/main/images/plot1"
+       alt="non-linear plot"
+       width=600
+       style="display:block;float:none;margin-left:auto;margin-right:auto;width:40%"/>
+</a>
+
+<a href="https://colab.research.google.com/drive/1pCPfY6VaR6cS-8a1E8UiChtZLPn2pq9H#scrollTo=zTjVX0war6f7">
+  <img src="https://raw.githubusercontent.com/jql6/NBA_salary_regression/main/images/plot2"
+       alt="non-linear plot"
+       width=600
+       style="display:block;float:none;margin-left:auto;margin-right:auto;width:40%"/>
+</a>
 
 # Modelling
 I remember from my [machine learning class](https://www.sfu.ca/outlines.html?2020/fall/stat/452/d100) that a lot of the modelling we did involved doing cross-validation to prevent overfitting and comparing models by using their expected root mean squared error in R. When covering new models, the professor would tell us to throw the new model into the cross validation arena to duke it out with the other models. I decided to replicate this in Python.  
@@ -86,6 +100,7 @@ I remember from my [machine learning class](https://www.sfu.ca/outlines.html?202
        width=600
        style="display:block;float:none;margin-left:auto;margin-right:auto;width:40%"/>
 </a>
+
 
 One thing I enjoyed about modelling in Python is that the model parameters are all quite similar. Some of the models in R require training and test data split into `X` and `y` while some just need data split into training and test data. In addition, all the cross validation we did in class was done manually by randomly sampling indices. It's really nice to just be able to cross validate with one line of code and just use the data set for every model instead of having to figure out whether or not you needed to further split the data.
 
